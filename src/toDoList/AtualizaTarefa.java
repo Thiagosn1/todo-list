@@ -9,7 +9,7 @@ public class AtualizaTarefa {
 
     public static void atualizaTarefa() {
         if (tarefas.isEmpty()) {
-            System.out.println("Não há tarefas para serem atualizadas");
+            System.out.println("Não há tarefas para serem atualizadas.");
             System.out.println();
         } else {
             System.out.print("Digite o nome da tarefa que deseja atualizar: ");

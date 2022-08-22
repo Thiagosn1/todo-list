@@ -1,6 +1,5 @@
 package toDoList;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 import static toDoList.Tarefa.tarefas;
@@ -39,9 +38,6 @@ public class ListaTarefas {
             System.out.println("Estudos");
             System.out.print("Deseja listar por qual categoria? ");
             String categoria = leitor.nextLine();
-            System.out.println();
-            System.out.println(categoria.toUpperCase());
-            System.out.println();
             for (Tarefa tarefa : tarefas) {
                 if (tarefa.getCategoria().equals(categoria)) {
                     System.out.println("Nome: " + tarefa.getNome());
@@ -67,8 +63,6 @@ public class ListaTarefas {
             System.out.println("Done (Feito");
             System.out.print("Deseja listar por qual status? ");
             String status = leitor.nextLine();
-            System.out.println(status.toUpperCase());
-            System.out.println();
             for (Tarefa tarefa : tarefas) {
                 if (tarefa.getStatus().equals(status)) {
                     System.out.println("Nome: " + tarefa.getNome());
@@ -96,9 +90,6 @@ public class ListaTarefas {
             System.out.println("5 - Mínima");
             System.out.println("Deseja listar por qual prioridade? ");
             int prioridade = leitor.nextInt();
-            System.out.println();
-            System.out.println(prioridade);
-            System.out.println();
             for (Tarefa tarefa : tarefas) {
                 if (tarefa.getPrioridade() >= prioridade) {
                     System.out.println("Nome: " + tarefa.getNome());

@@ -1,11 +1,13 @@
 package toDoList;
 
+import java.util.Comparator;
 import java.util.Scanner;
 
 import static toDoList.Tarefa.tarefas;
 
 public class AdicionaTarefa {
     static Scanner leitor = new Scanner(System.in);
+
 
     public static void adicionaTarefa() {
         System.out.print("Digite o nome da tarefa: ");
@@ -43,7 +45,9 @@ public class AdicionaTarefa {
 
         Tarefa tarefa = new Tarefa(nome, descricao, dataTermino, categoria, status, prioridade);
         tarefas.add(tarefa);
-        System.out.println("Tarefa adicionada!");
+        tarefas.sort(Comparator.comparingInt(Tarefa::getPrioridade));
+
+        System.out.println("Tarefa adicionada.");
         System.out.println();
     }
 }

@@ -9,7 +9,7 @@ public class AtualizaTarefa {
 
     public static void atualizaTarefa() {
         if (tarefas.isEmpty()) {
-            System.out.println("Não há tarefas para serem atualizadas.");
+            System.out.println("Lista de tarefas está vazia.");
             System.out.println();
         } else {
             System.out.print("Digite o nome da tarefa que deseja atualizar: ");
@@ -45,7 +45,7 @@ public class AtualizaTarefa {
                     System.out.println("3 - Normal");
                     System.out.println("4 - Baixa");
                     System.out.println("5 - Mínima");
-                    System.out.print("Qual é a prioridade da tarefa? ");
+                    System.out.print("Qual é a prioridade da tarefa? (1-5) ");
                     int prioridade = leitor.nextInt();
 
                     tarefa.setNome(nome);
@@ -55,7 +55,7 @@ public class AtualizaTarefa {
                     tarefa.setStatus(status);
                     tarefa.setPrioridade(prioridade);
 
-                    System.out.println("Tarefa atualizada!");
+                    System.out.println("Tarefa atualizada.");
                     System.out.println();
                 }
             }

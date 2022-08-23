@@ -9,7 +9,7 @@ public class RemoveTarefa {
 
     public static void removeTarefa() {
         if (tarefas.isEmpty()) {
-            System.out.println("Não há tarefas para serem removidas");
+            System.out.println("Lista de tarefas está vazia.");
             System.out.println();
         } else {
             System.out.print("Digite o nome da tarefa que quer remover: ");
@@ -17,10 +17,10 @@ public class RemoveTarefa {
             for (Tarefa tarefa : tarefas) {
                 if (tarefa.getNome().equals(nome)) {
                     tarefas.remove(tarefa);
-                    System.out.println("Tarefa removida!");
+                    System.out.println("Tarefa removida.");
                     System.out.println();
                 } else {
-                    System.out.println("Tarefa não encontrada!");
+                    System.out.println("Tarefa não encontrada.");
                 }
             }
         }

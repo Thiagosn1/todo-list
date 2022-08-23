@@ -79,7 +79,7 @@ public class ListaTarefas {
 
     public static void listaPorPrioridade() {
         if (tarefas == null || tarefas.isEmpty()) {
-            System.out.println("Lista de tarefas está vázia");
+            System.out.println("Lista de tarefas está vazia.");
             System.out.println();
         } else {
             System.out.println("Listar por prioridade");

@@ -17,6 +17,8 @@ public class AtualizaTarefa {
             System.out.println();
             for (Tarefa tarefa : tarefas) {
                 if (tarefa.getNome().equals(nome)) {
+                    System.out.print("Digite o novo nome da tarefa: ");
+                    String nomeNovo = leitor.nextLine();
                     System.out.print("Digite a descrição da tarefa: ");
                     String descricao = leitor.nextLine();
                     System.out.print("Digite a data de termino da tarefa (DD//MM/AAAA): ");
@@ -48,7 +50,7 @@ public class AtualizaTarefa {
                     System.out.print("Qual é a prioridade da tarefa? (1-5) ");
                     int prioridade = leitor.nextInt();
 
-                    tarefa.setNome(nome);
+                    tarefa.setNome(nomeNovo);
                     tarefa.setDescricao(descricao);
                     tarefa.setDataTermino(dataTermino);
                     tarefa.setCategoria(categoria);

@@ -19,8 +19,6 @@ public class RemoveTarefa {
                     tarefas.remove(tarefa);
                     System.out.println("Tarefa removida.");
                     System.out.println();
-                } else {
-                    System.out.println("Tarefa não encontrada.");
                 }
             }
         }

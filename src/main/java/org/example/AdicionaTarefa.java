@@ -1,9 +1,9 @@
-package toDoList;
+package org.example;
 
 import java.util.Comparator;
 import java.util.Scanner;
 
-import static toDoList.Tarefa.tarefas;
+import static org.example.Tarefa.tarefas;
 
 public class AdicionaTarefa {
     static Scanner leitor = new Scanner(System.in);

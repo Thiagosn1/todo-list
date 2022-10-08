@@ -1,8 +1,8 @@
-package toDoList;
+package org.example;
 
 import java.util.Scanner;
 
-import static toDoList.Tarefa.tarefas;
+import static org.example.Tarefa.tarefas;
 
 public class AtualizaTarefa {
     static Scanner leitor = new Scanner(System.in);

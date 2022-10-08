@@ -1,11 +1,11 @@
-package toDoList;
+package org.example;
 
 import java.util.Scanner;
 
-import static toDoList.AdicionaTarefa.adicionaTarefa;
-import static toDoList.AtualizaTarefa.atualizaTarefa;
-import static toDoList.RemoveTarefa.removeTarefa;
-import static toDoList.ListaTarefas.*;
+import static org.example.AdicionaTarefa.adicionaTarefa;
+import static org.example.AtualizaTarefa.atualizaTarefa;
+import static org.example.ListaTarefas.*;
+import static org.example.RemoveTarefa.removeTarefa;
 
 public class Main {
     public static void main(String[] args) {

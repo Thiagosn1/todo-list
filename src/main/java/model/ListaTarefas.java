@@ -1,8 +1,8 @@
-package org.example;
+package model;
 
 import java.util.Scanner;
 
-import static toDoList.Tarefa.tarefas;
+import static model.Tarefa.tarefas;
 
 public class ListaTarefas {
 
@@ -15,7 +15,7 @@ public class ListaTarefas {
         } else {
             System.out.println("LISTA DE TAREFAS");
             System.out.println();
-            for(Tarefa tarefa : tarefas) {
+            for (Tarefa tarefa : tarefas) {
                 System.out.println("Nome: " + tarefa.getNome());
                 System.out.println("Descrição: " + tarefa.getDescricao());
                 System.out.println("Data de Vencimento: " + tarefa.getDataTermino());

@@ -1,9 +1,9 @@
-package org.example;
+package model;
 
 import java.util.Comparator;
 import java.util.Scanner;
 
-import static org.example.Tarefa.tarefas;
+import static model.Tarefa.tarefas;
 
 public class AdicionaTarefa {
     static Scanner leitor = new Scanner(System.in);

@@ -1,8 +1,9 @@
-package org.example;
+package model;
 
 import java.util.Scanner;
 
-import static toDoList.Tarefa.tarefas;
+import static model.Tarefa.tarefas;
+
 
 public class RemoveTarefa {
     static Scanner leitor = new Scanner(System.in);

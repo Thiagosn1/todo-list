@@ -1,11 +1,11 @@
-package org.example;
+package view;
 
 import java.util.Scanner;
 
-import static org.example.AdicionaTarefa.adicionaTarefa;
-import static org.example.AtualizaTarefa.atualizaTarefa;
-import static org.example.ListaTarefas.*;
-import static org.example.RemoveTarefa.removeTarefa;
+import static model.AdicionaTarefa.adicionaTarefa;
+import static model.AtualizaTarefa.atualizaTarefa;
+import static model.ListaTarefas.*;
+import static model.RemoveTarefa.removeTarefa;
 
 public class Main {
     public static void main(String[] args) {

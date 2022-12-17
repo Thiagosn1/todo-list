@@ -1,4 +1,4 @@
-package org.example;
+package model;
 
 import java.util.ArrayList;
 
@@ -13,6 +13,7 @@ public class Tarefa {
 
 
     static ArrayList<Tarefa> tarefas = new ArrayList<>();
+
     public Tarefa(String nome, String descricao, String dataTermino,
                   String categoria, String status, int prioridade) {
         this.nome = nome;

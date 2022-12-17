@@ -1,8 +1,8 @@
-package org.example;
+package model;
 
 import java.util.Scanner;
 
-import static org.example.Tarefa.tarefas;
+import static model.Tarefa.tarefas;
 
 public class AtualizaTarefa {
     static Scanner leitor = new Scanner(System.in);

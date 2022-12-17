@@ -1,8 +1,10 @@
-package model;
+package model.Metodo;
+
+import model.Classe.Tarefa;
 
 import java.util.Scanner;
 
-import static model.Tarefa.tarefas;
+import static model.Classe.Tarefa.tarefas;
 
 
 public class RemoveTarefa {

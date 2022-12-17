@@ -1,4 +1,4 @@
-package model;
+package model.Classe;
 
 import java.util.ArrayList;
 
@@ -11,8 +11,7 @@ public class Tarefa {
     private String status;
     private int prioridade;
 
-
-    static ArrayList<Tarefa> tarefas = new ArrayList<>();
+    public static ArrayList<Tarefa> tarefas = new ArrayList<>();
 
     public Tarefa(String nome, String descricao, String dataTermino,
                   String categoria, String status, int prioridade) {

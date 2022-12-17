@@ -2,10 +2,10 @@ package view;
 
 import java.util.Scanner;
 
-import static model.AdicionaTarefa.adicionaTarefa;
-import static model.AtualizaTarefa.atualizaTarefa;
-import static model.ListaTarefas.*;
-import static model.RemoveTarefa.removeTarefa;
+import static model.Metodo.AdicionaTarefa.adicionaTarefa;
+import static model.Metodo.AtualizaTarefa.atualizaTarefa;
+import static model.Metodo.ListaTarefas.*;
+import static model.Metodo.RemoveTarefa.removeTarefa;
 
 public class Main {
     public static void main(String[] args) {
